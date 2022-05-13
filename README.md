@@ -6,7 +6,7 @@
     - install pip-tools
     - in ./backend: pip-compile, pip-sync
 - generate test data in ./backend/preprocessing: 
-    - py preprocessing.py doc,
+    - py preprocessing.py doc
     - py preprocessing.py sent
 - run webpack: in ./frontend/static: npm run build
 - run flask server (./backend/app.py)
