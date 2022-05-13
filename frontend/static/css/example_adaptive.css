@@ -1,0 +1,79 @@
+body {
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  row-gap: 40px;
+  /*background-color: palegoldenrod;*/
+}
+
+.row {
+  /*margin: 10px auto;*/
+  /*max-width: 60em;*/
+  gap: 2px;
+  /*margin: 20px;*/
+  display: grid;
+  grid-template-columns: 20px max-content;
+  grid-template-rows: max-content max-content max-content;
+  /*grid-template-areas:*/
+  /*  "chart1"*/
+  /*  "chart2"*/
+  /*  "chart3";*/
+
+  /*overflow: hidden;*/
+}
+.longLabel,
+.shortLabel {
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+  color: #808080;
+  font-family: sans-serif;
+}
+.longLabel {
+  transform: rotate(-90deg);
+  font-size: 10pt;
+}
+
+.shortLabel {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.lil-gui{
+  /*--text-color: orange;*/
+  --font-size: 8pt;
+  --input-font-size: 8pt;
+  --padding: 3px;
+  --spacing: 2px;
+  --widget-height: 20px;
+  --slider-knob-width: 3px;
+}
+
+.LOC.name {
+  font-weight: bold;
+  color: #d7191c;
+}
+.PER.name {
+  font-weight: bold;
+  color: #fdae61;
+}
+.ORG.name {
+  font-weight: bold;
+  color: #abdda4;
+}
+.MISC.name {
+  font-weight: bold;
+  color: #2b83ba;
+}
+
+/*.flair {*/
+/*  grid-area: chart1;*/
+/*}*/
+
+/*.roberta {*/
+/*  grid-area: chart2;*/
+/*}*/
+
+/*.stanza {*/
+/*  grid-area: chart3;*/
+/*}*/

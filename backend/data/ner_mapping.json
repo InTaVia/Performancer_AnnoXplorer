@@ -1,0 +1,20 @@
+{
+    "CARDINAL": "-",
+    "DATE": "-",
+    "EVENT": "MISC",
+    "FAC": "-",
+    "GPE": "LOC",
+    "LANGUAGE": "MISC",
+    "LAW": "MISC",
+    "LOC": "LOC",
+    "MONEY": "-",
+    "NORP": "-",
+    "ORDINAL": "-",
+    "ORG": "ORG",
+    "PERCENT": "-",
+    "PERSON": "PER",
+    "PRODUCT": "MISC",
+    "QUANTITY":  "-",
+    "TIME": "-",
+    "WORK_OF_ART": "MISC"
+}

@@ -1,0 +1,29 @@
+body {
+    /*margin: 10px auto;*/
+    /*max-width: 60em;*/
+    gap: 5px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: max-content 200px;
+    grid-template-rows: max-content max-content max-content;
+    grid-template-areas:    "anno1 controls"
+                            "anno2 ."
+                            "anno3 .";
+    /*overflow: hidden;*/
+}
+
+.anno1{
+    grid-area: anno1;
+}
+
+.anno2{
+    grid-area: anno2;
+}
+
+.anno3{
+    grid-area: anno3;
+}
+
+.controls{
+    grid-area: controls;
+}
